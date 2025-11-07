@@ -10,12 +10,30 @@
 </script>
 
 <Hero
-	title="Elevate your business with thoughtful design"
-	subtitle="Solutions that enhance user experience, and improve visual communication."
-	imageSrc="https://www.unc.mn/image-placeholder.svg"
-	generating
+	title="Turn your Twitter header into passive income"
+	subtitle="Join the marketplace connecting creators with advertisers. Set your price, approve every ad, and start earning from your header space."
+	imageSrc="/generated/image-a-content-creator-celebrating-a-subtle-w.webp"
+	centered={false}
+	callsToAction={[
+		{
+			href: "/contact",
+			label: "Join the waitlist"
+		},
+		{
+			href: "/about",
+			label: "Learn how it works"
+		}
+	]}
 />
-<LogoScroller label="" generating />
+<LogoScroller
+	label="Trusted by leading creator brands"
+	logoUrls={[
+		'https://cdn.brandfetch.io/shopify.com/w/400/h/400/logo',
+		'https://cdn.brandfetch.io/convertkit.com/w/400/h/400/logo',
+		'https://cdn.brandfetch.io/notion.so/w/400/h/400/logo',
+		'https://cdn.brandfetch.io/beehiiv.com/w/400/h/400/logo'
+	]}
+/>
 
 <Summary
 	generating
