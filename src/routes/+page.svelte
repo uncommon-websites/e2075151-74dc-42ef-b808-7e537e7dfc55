@@ -36,62 +36,91 @@
 />
 
 <Summary
-	generating
-	title="What we do"
-	text="Our technology delivers measurable results through secure, adaptable solutions that directly increase productivity and drive growth."
+	title="How it works"
+	text="RentMyHeader connects Twitter creators with advertisers through a simple marketplace for header space. You set your rates, approve every campaign, and earn passive income while brands reach your engaged audience. It's the easiest way to monetize your Twitter presence without creating extra content."
 />
 
 <Testimonials
-	generating
 	testimonials={[
 		{
-			name: "Jane Smith",
-			position: "CTO",
-			company: "Tech Innovations",
+			name: "Marcus Chen",
+			position: "Tech Creator",
+			company: "42K followers",
 			quote:
-				"Their cutting-edge automation boosted our productivity by 35%.\nThe intuitive interface reduced training time and improved team adoption.",
-			image: "https://www.unc.mn/image-placeholder.svg"
+				"I was leaving money on the table every single day. Within my first week, I made $600 from header space I wasn't even using. Zero time investment after the 5-minute setup.",
+			image: "/generated/image-documentary-style-professional-headshot-.webp"
 		},
 		{
-			name: "John Doe",
-			position: "Director of Operations",
-			company: "Global Solutions",
+			name: "Elena Rodriguez",
+			position: "Growth Marketer",
+			company: "SaaS Startup",
 			quote:
-				"Their robust security protocols gave us confidence in handling sensitive data.\nThe 24/7 support team resolved issues within hours, not days.",
-			image: "https://www.unc.mn/image-placeholder.svg"
+				"We spent $2,500 testing influencer campaigns on other platforms with mixed results. RentMyHeader gave us direct access to engaged audiences for a fraction of the cost and we saw conversions within 48 hours.",
+			image: "/generated/image-documentary-style-professional-headshot-.webp"
 		},
 		{
-			name: "Sarah Johnson",
-			position: "Product Manager",
-			company: "Future Systems",
+			name: "Amit Patel",
+			position: "Finance Creator",
+			company: "28K followers",
 			quote:
-				"The scalable platform grew seamlessly with our business needs.\nTheir customization options allowed us to tailor solutions perfectly to our workflows.",
-			image: "https://www.unc.mn/image-placeholder.svg"
+				"The approval system means I never worry about brand safety. I've rejected three ads that didn't fit my audience, and the ones I approved generated $1,200 last month while I focused on content.",
+			image: "/generated/image-documentary-style-professional-headshot-.webp"
 		}
 	]}
 />
 
 <Features
-	generating
-	title="Features"
-	subtitle="Some features"
+	title="Everything you need to monetize your header"
+	subtitle="Complete control over your earning potential with tools designed for creators who value their brand"
 	features={[
 		{
-			title: "Streamlined Workflows",
+			title: "Set your own price",
 			description:
-				"Automate repetitive tasks and connect systems to improve productivity with our industry-leading 87% time savings."
+				"Control your earnings with flexible daily, weekly, or monthly rates that reflect your audience value."
 		},
 		{
-			title: "Data Analysis",
+			title: "Approve every ad",
 			description:
-				"Extract meaningful insights from your data with powerful analytical tools backed by proprietary AI algorithms that are 3x more accurate than competitors."
+				"Review and approve every advertisement before it goes live on your profile with one-click controls."
 		},
 		{
-			title: "Secure Collaboration",
+			title: "Get paid securely",
 			description:
-				"Work together seamlessly while maintaining strict data privacy standards with our zero-knowledge architecture and military-grade encryption."
+				"Receive automatic payouts through Stripe with our money-back guarantee and 24/7 support."
+		},
+		{
+			title: "Brand safety first",
+			description:
+				"All advertisements are pre-screened to protect your reputation and maintain audience trust."
+		},
+		{
+			title: "One-click control",
+			description:
+				"Pause or disable advertising instantly without losing your account status or earnings history."
+		},
+		{
+			title: "Live preview system",
+			description:
+				"See exactly how ads will appear on your header with real-time preview before approval."
 		}
 	]}
 />
-<AboutTeaser generating />
-<CallToAction generating />
+<AboutTeaser />
+<CallToAction
+	title="Join the exclusive creator network"
+	subtitle="Limited spots available"
+	description="Get early access to RentMyHeader and start earning from your header space before the public launch. You keep full control, approve every ad, and set your own rates. Join 250M+ followers already in our marketplace."
+	imageSrc="/generated/image-a-happy-content-creator-mid-20s-sits-at-.webp"
+	callsToAction={[
+		{
+			href: "/contact",
+			label: "Join the waitlist",
+			variant: "primary"
+		},
+		{
+			href: "/about",
+			label: "Learn more",
+			variant: "secondary"
+		}
+	]}
+/>
